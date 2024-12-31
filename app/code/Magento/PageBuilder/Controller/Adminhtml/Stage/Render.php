@@ -36,7 +36,8 @@ class Render extends \Magento\Backend\App\Action implements HttpGetActionInterfa
         PageFactory $pageFactory
     ) {
         $this->pageFactory = $pageFactory;
-        return parent::__construct($context);
+
+        parent::__construct($context);
     }
 
     /**
